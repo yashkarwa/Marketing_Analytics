@@ -760,7 +760,7 @@ plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 ```
 
 
-![png](/assets/images/churn/churn_28_0.png)
+![png](/Images/churn_28_0.png)
 
 
 
@@ -787,7 +787,7 @@ fig.tight_layout(rect=[0, 0.03, 1, 0.95])
 ```
 
 
-![png](/assets/images/churn/churn_29_0.png)
+![png](/Images/churn_29_0.png)
 
 
 
@@ -829,7 +829,7 @@ plt.show()
 
 
 
-![png](/assets/images/churn/churn_31_1.png)
+![png](/Images/churn_31_1.png)
 
 
 
@@ -852,7 +852,7 @@ dataset.drop(columns = ['housing', 'payment_type',
 
 
 
-![png](/assets/images/churn/churn_32_1.png)
+![png](/Images/churn_32_1.png)
 
 
 
@@ -887,7 +887,7 @@ sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
 
 
 
-![png](/assets/images/churn/churn_33_1.png)
+![png](/Images/churn_33_1.png)
 
 
 
@@ -1356,7 +1356,7 @@ log_reg_grid_results =  perform_model(log_reg_grid, X_train, y_train, X_test, y_
     
 
 
-![png](/assets/images/churn/churn_65_3.png)
+![png](/Images/churn_65_3.png)
 
 
     -------------------------
@@ -1471,7 +1471,7 @@ lr_svc_grid_results = perform_model(lr_svc_grid, X_train, y_train, X_test, y_tes
     
 
 
-![png](/assets/images/churn/churn_69_3.png)
+![png](/Images/churn_69_3.png)
 
 
     -------------------------
@@ -1574,7 +1574,7 @@ rbf_svm_grid_results = perform_model(rbf_svm_grid, X_train, y_train, X_test, y_t
     
 
 
-![png](/assets/images/churn/churn_72_1.png)
+![png](/Images/churn_72_1.png)
 
 
     -------------------------
@@ -1677,7 +1677,7 @@ print_grid_search_attributes(dt_grid_results['model'])
     
 
 
-![png](/assets/images/churn/churn_75_1.png)
+![png](/Images/churn_75_1.png)
 
 
     -------------------------
@@ -1817,7 +1817,7 @@ print_grid_search_attributes(rfc_grid_results['model'])
     
 
 
-![png](/assets/images/churn/churn_78_1.png)
+![png](/Images/churn_78_1.png)
 
 
     -------------------------
@@ -1917,7 +1917,7 @@ print_grid_search_attributes(gbdt_grid_results['model'])
     
 
 
-![png](/assets/images/churn/churn_80_1.png)
+![png](/Images/churn_80_1.png)
 
 
     -------------------------
@@ -2031,7 +2031,7 @@ print_grid_search_attributes(xgboost_grid_results['model'])
     
 
 
-![png](/assets/images/churn/churn_82_1.png)
+![png](/Images/churn_82_1.png)
 
 
     -------------------------

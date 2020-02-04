@@ -17,7 +17,7 @@ There are multiple Conversion Model that are widely used in Marketing domains. B
 We can use any of the Heuristic Models and mostly used in the industry is the **Last Touch** Model. The problem in the heuristic model is not to consider all the different channels from the application, which will hurt the overall conversion funnel. 
 
 
-![png](/assets/images/MA/AttributionApproach.png)
+![png](images/AttributionApproach.png)
 source: <https://github.com/MatCyt/Markov-Chain>
 
 The solution in this case study is to capture the whole journey by using **Markov Chain**. 
@@ -334,7 +334,7 @@ g <- query_tbl %>%
 ggplotly(g)
 ```
 
-![png](/assets/images/MA/MA_1.png)
+![png](images/MA_1.png)
 
 I have defined into four categories : Direct , Google , Youtube and others (all other sources are added in this group.)
 
@@ -471,7 +471,7 @@ g <- channel_value_tbl %>%
 ggplotly(g, tooltip = "text")
 ```
 
-![png](/assets/images/MA/MA_2.png)
+![png](images/MA_2.png)
 ------------------
 
 
@@ -506,7 +506,7 @@ g <- channel_value_tbl %>%
 ggplotly(g, tooltip = "text")
 ```
 
-![png](/assets/images/MA/MA_3.png)
+![png](images/MA_3.png)
 
 -------------------
 
@@ -682,7 +682,7 @@ channel_path_heuristic_model %>%
     plot_attribution()
 ```
 
-![png](/assets/images/MA/MA_4.png)
+![png](images/MA_4.png)
 
 
 ```r
@@ -692,7 +692,7 @@ channel_path_heuristic_model %>%
     plot_attribution()
 ```
 
-![png](/assets/images/MA/MA_5.png)
+![png](images/MA_5.png)
 --------------------
 
 ## 6 Markov Chain
@@ -731,7 +731,7 @@ markov_model %>%
 ## Joining, by = "channel_name"
 ```
 
-![png](/assets/images/MA/MA_6.png)
+![png](images/MA_6.png)
 ```r
 # Value
 markov_model %>%
@@ -748,7 +748,7 @@ markov_model %>%
 ## Joining, by = "channel_name"
 ```
 
-![png](/assets/images/MA/MA_7.png)
+![png](images/MA_7.png)
 ----------
 
 
